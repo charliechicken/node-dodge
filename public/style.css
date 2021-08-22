@@ -1,0 +1,152 @@
+html,
+body {
+    overflow: hidden;
+}
+
+#myRange {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+#speedDiv {
+    position: absolute;
+    top: 0;
+    right: 1.5px;
+}
+
+#main-text {
+    font-family: 'Rampart One', cursive;
+    font-size: 6em;
+    margin-top: 3vh;
+}
+
+#topStuff {
+    position: absolute !important;
+    top: 1%;
+    left: 40%;
+}
+
+#topTips {
+    position: absolute !important;
+    top: 22%;
+    left: 40%;
+}
+
+#main-Background {
+    background-color: cadetblue
+}
+
+#settingsButton {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+#stopCanvas,
+#reload,
+#home {
+    display: none;
+}
+
+#stopCanvas {
+    position: absolute;
+    top: 50%;
+    right: 54%;
+}
+
+#reload {
+    position: absolute;
+    top: 50%;
+    right: 44%;
+}
+
+#home {
+    position: absolute;
+    top: 50%;
+    right: 38%;
+}
+
+#enterGameBtn {
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    top: 50%;
+    right: 60%;
+    border: 0;
+    padding: 1em;
+    font-size: 30px;
+}
+
+.color {
+    border: 0;
+    padding: 1vh;
+    margin: .5vh;
+    color: lightgrey;
+    font-size: 1em;
+}
+
+#playerColor {
+    line-height: 3vh;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#black {
+    background-color: black;
+}
+
+#cardMain {
+    position: absolute !important;
+    top: 30% !important;
+    right: 30% !important;
+}
+
+#sandbox {
+    padding: 1em;
+    border: 0;
+    background: cadetblue;
+}
+
+#usersOnline {
+    position: absolute !important;
+    top: 1%;
+    right: 1%;
+}
+
+#nickname {
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    top: 70%;
+    right: 62%;
+    border: 0;
+    padding: .5em;
+    font-size: 1em;
+}
+
+#leaderboard {
+    position: absolute !important;
+    bottom: 1%;
+    right: 1%;
+}
